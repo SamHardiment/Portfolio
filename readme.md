@@ -6,4 +6,4 @@ Hello and welcome to my online portfolio! This portfolio is made using the React
 
 Below is the link to my portfolio hosted on a Netlify server:
 
-- (url)[https://samghardiment.netlify.app/]
+- [Link to Sam Hardiment's portfolio](https://samghardiment.netlify.app/)
