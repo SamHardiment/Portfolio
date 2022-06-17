@@ -1,8 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
 
-const About = () => {
-  const TestRef = useRef(null);
+export const About = () => {
   return <></>;
 };
-
-export default About;

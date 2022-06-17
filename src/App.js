@@ -5,6 +5,7 @@ import { About } from "./pages";
 import "./app.css";
 
 export const App = () => {
+  // References for each component
   const about = useRef(null);
   const skills = useRef(null);
   const projects = useRef(null);

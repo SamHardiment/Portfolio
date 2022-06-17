@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useRef } from "react";
 
-const Navbar = ({ about, skills, projects, contact }) => {
+export const Navbar = ({ about, skills, projects, contact }) => {
   // Function that takes a reference and scrolls to it.
   //Reference provided by props
   const scrollDown = (ref) => {
@@ -24,5 +22,3 @@ const Navbar = ({ about, skills, projects, contact }) => {
     </>
   );
 };
-
-export default Navbar;
