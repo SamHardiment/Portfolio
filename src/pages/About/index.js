@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import "./index.css";
 
 const About = () => {
+  const TestRef = useRef(null);
   return <></>;
 };
 

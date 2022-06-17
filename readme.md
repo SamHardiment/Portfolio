@@ -10,4 +10,4 @@ Below is the link to my portfolio hosted on a Netlify server:
 
 ### New Features Learnt
 
-How to use scrollTo method with the useRef hook
+How to use scrollTo method with the useRef hook. Using multiple components means we need to use redux to import a global ref across components
