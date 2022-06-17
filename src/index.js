@@ -8,13 +8,13 @@ import { devToolsEnhancer } from "redux-devtools-extension";
 import { App } from "./App";
 import "./index.css";
 import scrollRefReducer from "./Reducers/scrollRefReducer";
-const store = createStore(scrollRefReducer, devToolsEnhancer());
+// const store = createStore(scrollRefReducer, devToolsEnhancer());
 
 ReactDom.render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </Provider>,
+  // <Provider>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  // </Provider>,
   document.getElementById("root")
 );
