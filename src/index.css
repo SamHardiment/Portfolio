@@ -8,8 +8,17 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Overpass", sans-serif;
 }
 
 body {
   box-sizing: border-box;
+}
+
+:root {
+  --lightPink: rgb(255, 203, 203);
+  --darkPink: rgb(255, 181, 181);
+  --greyBlue: rgb(64, 112, 136);
+  --darkBlue: rgb(19, 39, 67);
+  --darkBlue-Variant: rgba(19, 39, 67, 0.8);
 }
