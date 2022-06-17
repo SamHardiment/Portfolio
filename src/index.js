@@ -7,7 +7,7 @@ import { devToolsEnhancer } from "redux-devtools-extension";
 
 import { App } from "./App";
 import "./index.css";
-import scrollRefReducer from "./Reducers/scrollRefReducer";
+// import scrollRefReducer from "./Reducers/scrollRefReducer";
 // const store = createStore(scrollRefReducer, devToolsEnhancer());
 
 ReactDom.render(
