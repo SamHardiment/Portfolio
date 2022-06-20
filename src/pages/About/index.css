@@ -87,7 +87,8 @@
     font-size: 1.4rem;
   }
 
-  .underline {
+  .underline-1 {
+    height: 2px;
     width: 55%;
   }
   .aboutMe-Grid {
