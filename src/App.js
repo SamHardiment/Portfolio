@@ -13,6 +13,12 @@ export const App = () => {
   const projects = useRef(null);
   const contact = useRef(null);
 
+  const Div = React.forwardRef((props, ref) => (
+    <div ref={ref} className="reference-div">
+      {props.children}
+    </div>
+  ));
+
   return (
     <>
       <Navbar
@@ -22,15 +28,14 @@ export const App = () => {
         contact={contact}
       />
       <Header />
-      <div ref={about}></div>
+      <Div ref={about}></Div>
       <About />
       <A_SectionDivider />
-      <div ref={skills}></div>
+      <Div ref={skills}></Div>
       <Skills />
       <B_SectionDivider />
-      <div ref={projects}></div>
-      <A_SectionDivider />
-      <div ref={contact}></div>
+      <Div ref={projects}></Div>
+      <Div ref={contact}></Div>
       <Footer />
     </>
   );

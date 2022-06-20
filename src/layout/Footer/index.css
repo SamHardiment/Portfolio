@@ -1,9 +1,29 @@
 .footer {
   height: 120px;
   width: 100%;
-  background-color: var(--darkBlue);
+  background-color: var(--greyBlue);
   display: flex;
   justify-content: center;
   column-gap: 2rem;
   align-items: center;
 }
+
+.image-links {
+  width: 75px;
+  height: 22px;
+}
+
+.topBtn {
+  width: 120px;
+  padding: 0.2rem;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--darkPink);
+}
+
+/* --lightPink: rgb(255, 203, 203);
+  --darkPink: rgb(255, 181, 181);
+  --greyBlue: rgb(64, 112, 136);
+  --darkBlue: rgb(19, 39, 67);
+  --darkBlue-Variant: rgba(19, 39, 67, 0.8); */

@@ -4,9 +4,9 @@ import "./index.css";
 export const Header = () => {
   return (
     <div className="header">
-      <div class="hero-text-container">
-        <h1 class="hero-title">Welcome to my Portfolio</h1>
-        <h2 class="hero-subtext">Samuel Hardiment</h2>
+      <div className="hero-text-container">
+        <h1 className="hero-title">Welcome to my Portfolio</h1>
+        <h2 className="hero-subtext">Samuel Hardiment</h2>
       </div>
     </div>
   );

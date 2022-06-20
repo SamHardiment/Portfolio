@@ -19,6 +19,7 @@ import "./index.css";
 export const Skills = () => {
   return (
     <div className="skills-container">
+      <div></div>
       <div>
         <h2 className="skills-title">Skills</h2>
         <div className="underline-2"></div>
