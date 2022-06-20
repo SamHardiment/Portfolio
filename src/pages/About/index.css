@@ -1,0 +1,122 @@
+.margin-5 {
+  margin: 5rem;
+}
+.aboutMe-Container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: 6rem auto 20rem auto;
+}
+.grid-container {
+  padding: 1.2rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe-Grid {
+  display: grid;
+  grid-template-rows: repeat(4, 95px);
+  grid-template-columns: repeat(5, 70px);
+}
+
+.sampic {
+  width: 180px;
+  height: 235px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.45) 0.4rem 0.8rem 1rem;
+}
+.sampic:hover {
+  transform: scale(1.05);
+  outline: solid 1.6rem var(--greyBlue);
+  outline-offset: 1rem;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.55) 0.4rem 1rem 1rem;
+}
+.aboutMe-Grid:hover .sampic:not(:hover) {
+  transform: scale(0.95);
+  box-shadow: rgba(0, 0, 0, 0.35) 0.2rem 0.6rem 1rem;
+}
+.sampic1 {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.sampic2 {
+  grid-column: 3 / 5;
+  grid-row: 2 / 4;
+}
+.sampic3 {
+  grid-column: 4 / 6;
+  grid-row: 3 / 5;
+}
+.aboutMe-Text {
+  /* align-self: flsex-start; */
+  width: 50%;
+}
+.text-container {
+  width: 90%;
+}
+.heading--4 {
+  font-size: 4.4rem;
+}
+.text-container > p {
+  margin-top: 2rem;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.underline-1 {
+  height: 2px;
+  width: 70%;
+  background-color: var(--darkBlue);
+}
+
+@media only screen and (min-width: 1500px) {
+  .navigation {
+    width: 25vw;
+  }
+  .heading--4 {
+    font-size: 4.8rem;
+  }
+  .aboutMe-Text > p {
+    font-size: 1.4rem;
+  }
+
+  .underline {
+    width: 55%;
+  }
+  .aboutMe-Grid {
+    grid-template-rows: repeat(4, 160px);
+    grid-template-columns: repeat(5, 145px);
+  }
+  .sampic {
+    width: 360px;
+    height: 470px;
+  }
+  .aboutMe-Container {
+    margin-top: 20rem;
+  }
+}
+
+.skills {
+  margin: 0 5rem;
+  padding: 5rem 0;
+}
+.heading-container {
+  text-align: center;
+  margin-bottom: 2.3rem;
+  position: relative;
+}
+.underline-2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 50%;
+  background-color: var(--darkBlue);
+}

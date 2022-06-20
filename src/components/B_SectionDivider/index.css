@@ -1,0 +1,6 @@
+.sectionDivider-2 {
+  background-color: var(--darkBlue-Variant);
+  height: 25rem;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  margin: 20rem 0;
+}

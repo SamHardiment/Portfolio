@@ -1,20 +1,5 @@
 h2 {
-  text-decoration: underline;
-}
-h3 {
-  position: absolute;
-  top: 2000px;
-}
-
-h4 {
-  position: absolute;
-  top: 4000px;
-}
-h5 {
-  position: absolute;
-  top: 6000px;
-}
-h6 {
-  position: absolute;
-  top: 8000px;
+  font-family: inherit;
+  font-size: 3.2rem;
+  padding: 0.1rem;
 }
