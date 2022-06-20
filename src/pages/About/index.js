@@ -19,7 +19,7 @@ export const About = () => {
         </div>
         <div className="aboutMe-Text">
           <h4 className="heading--4">Who am I?</h4>
-          <div className="underline"></div>
+          <div className="underline-1"></div>
           <div className="text-container">
             <p>
               Hello! I am Sam and I'm a recent graduate from the University of

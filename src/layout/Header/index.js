@@ -5,8 +5,8 @@ export const Header = () => {
   return (
     <div className="header">
       <div class="hero-text-container">
-        <h1 class="hero-title">A Generic Gretting</h1>
-        <h2 class="hero-subtext">Brought to you by Samuel Hardiment</h2>
+        <h1 class="hero-title">Welcome to my Portfolio</h1>
+        <h2 class="hero-subtext">Samuel Hardiment</h2>
       </div>
     </div>
   );

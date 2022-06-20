@@ -2,4 +2,5 @@
   background-color: var(--greyBlue);
   height: 25rem;
   clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+  margin: 20rem 0;
 }
