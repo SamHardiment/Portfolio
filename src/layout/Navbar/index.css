@@ -1,5 +1,6 @@
 .navbar-container {
   display: flex;
+  background-color: var(--darkBlue);
 
   justify-content: space-around;
   align-items: center;
@@ -29,7 +30,7 @@
   transition: all 0.2s;
   text-decoration: none;
   /* color: rgba(255, 255, 255, 0.9); */
-  color: black;
+  color: rgb(241, 241, 241);
   font-size: 2.2rem;
   font-weight: 100;
   transition: all 0.2s;
