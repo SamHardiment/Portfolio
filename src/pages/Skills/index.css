@@ -1,3 +1,9 @@
+.skills-container {
+  margin-top: 6000px;
+  display: flex;
+  flex-direction: column;
+}
+
 .carousel-section {
   width: 400px;
   margin: 20px auto 0 auto;
@@ -15,7 +21,7 @@
   position: relative;
 }
 
-.carousel-content-wrapper {
+.carousel-content-container {
   overflow: hidden;
   width: 100%;
   height: 100%;

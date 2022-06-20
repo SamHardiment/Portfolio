@@ -11,14 +11,14 @@ export const Navbar = ({ about, skills, projects, contact }) => {
   };
 
   return (
-    <>
-      <h2>SamH</h2>
-      <ul>
+    <div className="navbar-container">
+      <h3 className="signature">SamH</h3>
+      <ul className="navbar-links">
         <li onClick={() => scrollDown(about)}>About Me</li>
         <li onClick={() => scrollDown(skills)}>Skills</li>
         <li onClick={() => scrollDown(projects)}>Projects</li>
         <li onClick={() => scrollDown(contact)}>Contact Me</li>
       </ul>
-    </>
+    </div>
   );
 };

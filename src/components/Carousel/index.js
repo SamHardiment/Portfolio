@@ -6,7 +6,6 @@ import la from "../../images/navigation-back-arrow-svgrepo-com.svg";
 export const Carousel = (props) => {
   // Each image slide contained in children array
   const { children } = props;
-  console.log(children);
 
   // Set the active slide to the first image in children array
   const [activeIndex, setActiveIndex] = useState(0);
@@ -42,7 +41,7 @@ export const Carousel = (props) => {
         >
           <img src={la} alt="backward arrow" />
         </button>
-        <div className="carousel-content-wrapper">
+        <div className="carousel-content-container">
           <div
             className="carousel-content"
             style={{ transform: `translateX(-${activeIndex * 100}%)` }}
