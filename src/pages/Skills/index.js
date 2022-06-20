@@ -10,11 +10,13 @@ import "./index.css";
 
 export const Skills = () => {
   return (
-    <Carousel>
-      <img src={js} alt="Javascript Logo" />
-      <img src={rt} alt="React Logo" />
-      <img src={node} alt="NodeJS Logo" />
-      <img src={jt} alt="Jest Logo" />
-    </Carousel>
+    <div className="carousel-section">
+      <Carousel>
+        <img src={js} alt="Javascript Logo" />
+        <img src={rt} alt="React Logo" />
+        <img src={node} alt="NodeJS Logo" />
+        <img src={jt} alt="Jest Logo" />
+      </Carousel>
+    </div>
   );
 };
