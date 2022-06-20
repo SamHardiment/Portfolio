@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "../../components";
+// import { ReactComponent as Js } from "../../images/javascript-js-seeklogo.com.svg";
 import js from "../../images/javascript-js-seeklogo.com.svg";
 import rt from "../../images/react-seeklogo.com.svg";
 import node from "../../images/node-node-js-seeklogo.com.svg";
@@ -8,6 +9,7 @@ import jt from "../../images/jest-seeklogo.com.svg";
 export const Skills = () => {
   return (
     <Carousel>
+      {/* <Js /> */}
       <img src={js} alt="Javascript Logo" />
       <img src={rt} alt="React Logo" />
       <img src={node} alt="NodeJS Logo" />
