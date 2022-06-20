@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-import { Navbar } from "./layout";
+import { Navbar, Header } from "./layout";
 import { About } from "./pages";
 import { Skills } from "./pages";
 import "./app.css";
@@ -20,6 +20,7 @@ export const App = () => {
         projects={projects}
         contact={contact}
       />
+      <Header />
       <About />
       <Skills />
       <div ref={skills}></div>
