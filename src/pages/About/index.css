@@ -76,6 +76,23 @@
   background-color: var(--darkBlue);
 }
 
+.skills {
+  margin: 0 5rem;
+  padding: 5rem 0;
+}
+.heading-container {
+  text-align: center;
+  margin-bottom: 2.3rem;
+  position: relative;
+}
+.underline-2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 50%;
+  background-color: var(--darkBlue);
+}
 @media only screen and (min-width: 1500px) {
   .navigation {
     width: 25vw;
@@ -103,21 +120,24 @@
     margin-top: 20rem;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .aboutMe-Text > p {
+    font-size: 1rem;
+  }
 
-.skills {
-  margin: 0 5rem;
-  padding: 5rem 0;
-}
-.heading-container {
-  text-align: center;
-  margin-bottom: 2.3rem;
-  position: relative;
-}
-.underline-2 {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 2px;
-  width: 50%;
-  background-color: var(--darkBlue);
+  .underline-1 {
+    height: 2px;
+    width: 40%;
+  }
+  .aboutMe-Grid {
+    grid-template-rows: repeat(4, 80px);
+    grid-template-columns: repeat(5, 72px);
+  }
+  .sampic {
+    width: 180px;
+    height: 235px;
+  }
+  .aboutMe-Container {
+    margin-top: 10rem;
+  }
 }

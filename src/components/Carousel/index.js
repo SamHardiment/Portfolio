@@ -6,6 +6,7 @@ import la from "../../images/navigation-back-arrow-svgrepo-com.svg";
 export const Carousel = (props) => {
   // Each image slide contained in children array
   const { children } = props;
+  console.log(children);
 
   // Set the active slide to the first image in children array
   const [activeIndex, setActiveIndex] = useState(0);
