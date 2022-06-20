@@ -1,0 +1,9 @@
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  align-items: center;
+}
