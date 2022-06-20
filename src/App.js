@@ -28,11 +28,15 @@ export const App = () => {
         contact={contact}
       />
       <Header />
-      <Div ref={about}></Div>
-      <About />
+      <Div ref={about}>
+        <About />
+      </Div>
+
       <A_SectionDivider />
-      <Div ref={skills}></Div>
-      <Skills />
+      <Div ref={skills}>
+        <Skills />
+      </Div>
+
       <B_SectionDivider />
       <Div ref={projects}></Div>
       <Div ref={contact}></Div>
@@ -40,3 +44,5 @@ export const App = () => {
     </>
   );
 };
+
+// What if I add the Skills/> component into each div that is created
