@@ -4,6 +4,7 @@ import { Navbar, Header } from "./layout";
 import { About } from "./pages";
 import { Skills } from "./pages";
 import "./app.css";
+import { A_SectionDivider, B_SectionDivider } from "./components";
 
 export const App = () => {
   // References for each component
@@ -22,8 +23,10 @@ export const App = () => {
       />
       <Header />
       <About />
-      <Skills />
+      <A_SectionDivider />
       <div ref={skills}></div>
+      <Skills />
+      <B_SectionDivider />
     </>
   );
 };
