@@ -35,12 +35,13 @@ export const Carousel = (props) => {
   return (
     <div className="carousel-container">
       <div className="carousel-wrapper">
-        {/* Remove backwards arrow when activeIndex = 0 */}
-        {activeIndex > 0 && (
-          <button onClick={prev} className="left-arrow">
-            <img src={la} alt="backward arrow" />
-          </button>
-        )}
+        <button
+          onClick={prev}
+          disabled={activeIndex === 0}
+          className="left-arrow"
+        >
+          <img src={la} alt="backward arrow" />
+        </button>
         <div className="carousel-content-wrapper">
           <div
             className="carousel-content"
@@ -48,12 +49,13 @@ export const Carousel = (props) => {
           >
             {children}
           </div>
-          {/* Remove forwards arrow when activeIndex = last slide in the array */}
-          {activeIndex < length - 1 && (
-            <button onClick={next} className="right-arrow">
-              <img src={ra} alt="forward arrow" />
-            </button>
-          )}
+          <button
+            onClick={next}
+            disabled={activeIndex === length - 1}
+            className="right-arrow"
+          >
+            <img src={ra} alt="forward arrow" />
+          </button>
         </div>
       </div>
     </div>
