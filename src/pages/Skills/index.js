@@ -25,7 +25,6 @@ export const Skills = () => {
         <div className="underline-2"></div>
       </div>
       <div className="carousel-section">
-        {/* TO DO: write a map to create images from an arrary */}
         <Carousel>
           <img src={js} alt="Javascript Logo" />
           <img src={rt} alt="React Logo" />

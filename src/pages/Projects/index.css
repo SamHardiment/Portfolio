@@ -5,3 +5,12 @@
   justify-content: center;
   width: 70%;
 }
+.project-header {
+  width: 80%;
+  margin: 0 auto;
+}
+.underline-3 {
+  height: 2px;
+  width: 30%;
+  background-color: var(--darkBlue);
+}
