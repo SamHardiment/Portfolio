@@ -1,19 +1,17 @@
 import React from "react";
 import { Carousel } from "../../components";
+import js from "../../images/javascript-js-seeklogo.com.svg";
+import rt from "../../images/react-seeklogo.com.svg";
+import node from "../../images/node-node-js-seeklogo.com.svg";
+import jt from "../../images/jest-seeklogo.com.svg";
 
 export const Skills = () => {
   return (
     <Carousel>
-      <img
-        src="../../images/javascript-js-seeklogo.com.svg"
-        alt="Javascript Logo"
-      />
-      <img src="../../images/react-seeklogo.com.svg" alt="Javascript Logo" />
-      <img
-        src="../../images/node-node-js-seeklogo.com.svg"
-        alt="Javascript Logo"
-      />
-      <img src="../../images/jest-seeklogo.com.svg" alt="Javascript Logo" />
+      <img src={js} alt="Javascript Logo" />
+      <img src={rt} alt="React Logo" />
+      <img src={node} alt="NodeJS Logo" />
+      <img src={jt} alt="Jest Logo" />
     </Carousel>
   );
 };
