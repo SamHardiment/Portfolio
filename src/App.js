@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 
 import { Navbar, Header, Footer } from "./layout";
-import { About } from "./pages";
-import { Skills } from "./pages";
+import { About, Skills, Projects } from "./pages";
+
 import "./app.css";
 import { A_SectionDivider, B_SectionDivider } from "./components";
 
@@ -38,7 +38,9 @@ export const App = () => {
       </Div>
 
       <B_SectionDivider />
-      <Div ref={projects}></Div>
+      <Div ref={projects}>
+        <Projects />
+      </Div>
       <Div ref={contact}></Div>
       <Footer />
     </>

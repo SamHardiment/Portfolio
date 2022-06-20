@@ -1,11 +1,16 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
 .projectCard {
-  height: 100%;
-  width: 15rem;
+  height: 20rem;
+  width: 20rem;
   border: solid 1px green;
   position: relative;
   perspective: 100rem;
 }
-
 .card-content {
   position: absolute;
   top: 0;

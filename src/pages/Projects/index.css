@@ -1,0 +1,7 @@
+.project-section {
+  display: flex;
+  margin: 10rem auto;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
