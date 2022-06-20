@@ -1,0 +1,48 @@
+.navbar-container {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  padding: 1rem;
+}
+.signature {
+  color: var(--darkPink);
+  font-family: "Water Brush", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  flex-basis: 20%;
+}
+
+.navbar-links {
+  flex-basis: 50%;
+
+  align-self: auto;
+  display: flex;
+  width: 35vw;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.navbar-links > li {
+  transition: all 0.2s;
+  text-decoration: none;
+  /* color: rgba(255, 255, 255, 0.9); */
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 100;
+  transition: all 0.2s;
+  margin: 1rem;
+}
+.navbar-links > li > a {
+  transition: all 0.2s;
+}
+
+.navbar-links > li:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+  color: var(--lightPink);
+  text-decoration: underline var(--lightPink);
+  text-underline-offset: 2px;
+}
