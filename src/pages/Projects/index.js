@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import "./index.css";
 import { ProjectCard } from "../../components";
 
+import smallTalk from "../../images/smallTalk.JPG";
+import kang from "../../images/kang.png";
+import quizzards from "../../images/quizzards.JPG";
+
 export const Projects = () => {
   const [projects, setProjects] = useState([
     {
@@ -11,6 +15,7 @@ export const Projects = () => {
       skills: ["Javascript", "Jest", "Heroku", "Netlify", "NodeJS"],
       desc: "SmallTalk is the place to be if you want to post a quirky comment, funny gif or rant about how you are overworked :( ",
       link: "https://github.com/SamHardiment/smallTalk_Client",
+      logoref: smallTalk,
     },
     {
       id: 2,
@@ -25,6 +30,22 @@ export const Projects = () => {
       ],
       desc: "RooTeen is an addictive habit tracker which has a colourful designed to retain user attention to help build better habits",
       link: "https://github.com/SamHardiment/Lap-2-Portfolio-Client",
+      logoref: kang,
+    },
+    {
+      id: 3,
+      name: "What's my Doodle?",
+      skills: [
+        "React",
+        "Web Sockets",
+        "Jest",
+        "Heroku",
+        "PostgreSQL",
+        "NodeJS",
+      ],
+      desc: "What's my doodle is an interactive drawing quiz game where up to 5 players can join a room and compete agaisnt each other. User's take turns drawing a random word while other players try to guess what that random word is for points.",
+      link: "https://github.com/SamHardiment/Lap-2-Portfolio-Client",
+      logoref: quizzards,
     },
   ]);
   return (

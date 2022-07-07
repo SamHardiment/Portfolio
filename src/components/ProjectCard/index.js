@@ -1,6 +1,8 @@
 import React from "react";
 
-import pic1 from "../../images/scottishsam.jpg";
+import smallTalk from "../../images/smallTalk.JPG";
+import kang from "../../images/kang.png";
+import quizzards from "../../images/quizzards.JPG";
 import "./index.css";
 
 export const ProjectCard = ({ projects }) => {
@@ -11,7 +13,7 @@ export const ProjectCard = ({ projects }) => {
           <div className="card-front card-content"></div>
           <div className="card-back card-content">
             <a href="#">
-              <img className="cardImg" src={pic1} alt="Image of project" />
+              <img className="cardImg" src={p.logoref} alt="Image of project" />
             </a>
           </div>
         </div>
