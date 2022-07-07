@@ -19,6 +19,22 @@ import django from "../../images/django-seeklogo.com.svg";
 import "./index.css";
 
 export const Skills = () => {
+  const logos = [
+    { ref: js, name: "Javascript" },
+    { ref: rt, name: "React" },
+    { ref: node, name: "Node" },
+    { ref: jt, name: "Jest" },
+    { ref: redux, name: "Redux" },
+    { ref: docker, name: "Docker" },
+    { ref: netlify, name: "Netlify" },
+    { ref: postgresql, name: "PostgreSQL" },
+    { ref: heroku, name: "Heroku" },
+    { ref: mongodb, name: "MongoDB" },
+    { ref: bootstrap, name: "Bootstrap" },
+    { ref: python, name: "Python" },
+    { ref: flask, name: "Flask" },
+    { ref: django, name: "Django" },
+  ];
   return (
     <div className="skills-container">
       <div></div>
@@ -28,20 +44,9 @@ export const Skills = () => {
       </div>
       <div className="carousel-section">
         <Carousel>
-          <img src={js} alt="Javascript Logo" />
-          <img src={rt} alt="React Logo" />
-          <img src={node} alt="NodeJS Logo" />
-          <img src={jt} alt="Jest Logo" />
-          <img src={redux} alt="Redux Logo" />
-          <img src={docker} alt="Docker Logo" />
-          <img src={netlify} alt="NetlifyLogo" />
-          <img src={postgresql} alt="PostgreSQL Logo" />
-          <img src={heroku} alt="Heroku Logo" />
-          <img src={mongodb} alt="MongoDB Logo" />
-          <img src={bootstrap} alt="Bootstrap Logo" />
-          <img src={python} alt="Python Logo" />
-          <img src={flask} alt="Flask Logo" />
-          <img src={django} alt="Django Logo" />
+          {logos.map((obj) => (
+            <img src={obj.ref} alt={obj.name} />
+          ))}
         </Carousel>
       </div>
     </div>
