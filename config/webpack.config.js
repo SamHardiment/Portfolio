@@ -40,7 +40,7 @@ const config = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|gif|pdf)$/,
+        test: /\.(png|svg|jpg|gif|pdf|JPG)$/,
         use: ["file-loader"],
       },
     ],
