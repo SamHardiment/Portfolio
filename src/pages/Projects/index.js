@@ -44,7 +44,7 @@ export const Projects = () => {
         "NodeJS",
       ],
       desc: "What's my doodle is an interactive drawing quiz game where up to 5 players can join a room and compete agaisnt each other. User's take turns drawing a random word while other players try to guess what that random word is for points.",
-      link: "https://github.com/SamHardiment/Lap-2-Portfolio-Client",
+      link: "https://github.com/SamHardiment/Client-Quizzards",
       logoref: quizzards,
     },
   ]);
