@@ -5,7 +5,6 @@ import js from "../../images/javascript-js-seeklogo.com.svg";
 import rt from "../../images/react-seeklogo.com.svg";
 import node from "../../images/node-node-js-seeklogo.com.svg";
 import jt from "../../images/jest-seeklogo.com.svg";
-
 import redux from "../../images/redux-seeklogo.com.svg";
 import docker from "../../images/docker-seeklogo.com.svg";
 import netlify from "../../images/netlify-seeklogo.com.svg";
@@ -13,6 +12,9 @@ import postgresql from "../../images/postgresql-seeklogo.com.svg";
 import heroku from "../../images/heroku-seeklogo.com.svg";
 import mongodb from "../../images/mongodb-seeklogo.com.svg";
 import bootstrap from "../../images/bootstrap-seeklogo.com.svg";
+import python from "../../images/python-seeklogo.com.svg";
+import flask from "../../images/flask-seeklogo.com.svg";
+import django from "../../images/django-seeklogo.com.svg";
 
 import "./index.css";
 
@@ -37,6 +39,9 @@ export const Skills = () => {
           <img src={heroku} alt="Heroku Logo" />
           <img src={mongodb} alt="MongoDB Logo" />
           <img src={bootstrap} alt="Bootstrap Logo" />
+          <img src={python} alt="Python Logo" />
+          <img src={flask} alt="Flask Logo" />
+          <img src={django} alt="Django Logo" />
         </Carousel>
       </div>
     </div>
