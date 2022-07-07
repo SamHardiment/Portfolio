@@ -1,8 +1,4 @@
 import React from "react";
-
-import smallTalk from "../../images/smallTalk.JPG";
-import kang from "../../images/kang.png";
-import quizzards from "../../images/quizzards.JPG";
 import "./index.css";
 
 export const ProjectCard = ({ projects }) => {

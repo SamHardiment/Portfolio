@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import "./index.css";
 import { ProjectCard } from "../../components";
 
-import smallTalk from "../../images/smallTalk.JPG";
+import smallTalk from "../../images/smallTalk.jpg";
 import kang from "../../images/kang.png";
-import quizzards from "../../images/quizzards.JPG";
+import quizzards from "../../images/quizzards.jpg";
 
 export const Projects = () => {
   const [projects, setProjects] = useState([
